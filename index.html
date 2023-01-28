@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <title>Burger</title>
+    </head> 
+    <div class="header">
+        <div class="logo"><img src="/img/logo.png" height="126px" width="126px">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="">Бургер</a></li>
+                <li><a href="">Шаурма</a></li>
+                <li ><a class="red" href="">Гра!!</a></li>
+            </ul>
+        </div>
+    </div>  
+    <body>
+        <div class="all">
+            <div class="game" id="game" name="game">
+                
+              
+                <div class="sos">
+                <div class="gameArea">
+                    <div class="one img" id="one"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="two img" id="two"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="three img" id="three"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="four img" id="four"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="five img" id="five"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="six img" id="six"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="seven img" id="seven"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="eight img" id="eight"><img src="/img/12321-removebg-preview.png"></div>
+                    <div class="nine img" id="nine"><img src="/img/12321-removebg-preview.png"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app">
+            <div class="app__header">
+              <h1 id="time-header">Час гри: <span id="time">5.0</span></h1>
+              <h1 id="result-header" class="hide">Ваш результат: <span id="result"></span></h1>
+            </div>
+            <div class="app__content">
+              <button class="btn" id="start">Старт</button>
+        
+              <div class="game" id="game"></div>
+            </div>
+            <div class="app__footer">
+              <div class="input">
+                <label for="game-time">Час гри, (сек)</label>
+                <input type="number" id="game-time" min="5" step="1" value="5">
+              </div>
+            </div>
+          </div>
+        <script src="/script.js"></script>
+    </body>
